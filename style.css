@@ -47,6 +47,7 @@ p {
     justify-content: center;
     align-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .quemassiste {
@@ -55,8 +56,8 @@ p {
     font-size: 30px;
     align-content: flex-end;
     color: white;
-    margin-top: 100px;
-    
+    margin-top: 90px;
+        
 }
 
 .users {
@@ -72,6 +73,7 @@ figcaption {
     font-size: 20px;
     color: white;
     text-align: center;
+    transition: 0.55s;
     
 }
 
@@ -107,6 +109,8 @@ figcaption {
 
 .efeito:hover figcaption {
     font-weight: 600;
+    transform: translateY(5px);
+    transition: 0.55s;
     
 }
 
@@ -134,6 +138,7 @@ button {
     align-items: center;
     font-size: 20px;
     margin-top: 80px;
+    margin-bottom: 50px;
     transition: .5s;
     /* animation:helicoptero 7s alternate infinite ease-in-out; */
       
