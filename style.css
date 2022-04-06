@@ -15,7 +15,7 @@ body {
 }
 
 main {
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -31,6 +31,8 @@ p {
 }
 
 #login {
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter';
     width: 1280px;
     height: 720px;
@@ -59,10 +61,11 @@ p {
 
 .users {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     height:30%;
-    margin-top: 0px;
+    margin: 0;
+    width: 700px;
+    
 }
 
 figcaption {
